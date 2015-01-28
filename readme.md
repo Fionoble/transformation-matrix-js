@@ -52,11 +52,12 @@ object.
 
 Some of the methods:
 
-    NEW* matrix.toString();
-    NEW* matrix.toJSON();
-    NEW* matrix.toCSS();
-    NEW* matrix.toArray();
+    *NEW matrix.interpolateAnim();      // decomposed interpolation
 
+    matrix.toString();
+    matrix.toJSON();
+    matrix.toCSS();
+    matrix.toArray();
     matrix.rotate(angle);    		    // angle in radians
     matrix.rotateDeg(angle);   		    // angle in degrees
     matrix.rotateFromVector(x, y);      // use a vector to set angle
